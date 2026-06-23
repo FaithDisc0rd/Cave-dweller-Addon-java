@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.cadentem.cave_dweller_addon.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "cave_dweller_addon.refmap.json",
+  "mixins": [
+    "CaveDwellerEntityMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
